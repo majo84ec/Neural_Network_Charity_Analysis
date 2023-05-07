@@ -18,11 +18,13 @@ The purpose of this project is create a binary classifier that is capable of pre
   
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
   Two hidden layers were used in the model. With 10 neurons for the first layer aprox. number of features and 20 for the second layer.  The activation function for the     input layers was "relu" and for the output layer was "sigmoid". The accuracy achieved was  73.17%.
   
 ![image](https://user-images.githubusercontent.com/120151872/236702948-9bf08a11-effd-4ae7-b463-789afbb0b917.png)
 
 - Were you able to achieve the target model performance?
+  
   No.
 
 - What steps did you take to try and increase model performance?
