@@ -32,15 +32,17 @@ The purpose of this project is create a binary classifier that is capable of pre
 
 - What steps did you take to try and increase model performance?
 
-    - **Attempt 1:** Inrease hidden layers to 3 , increase number of neurons , increase the number of values per each bins.  Accuracy 73.04%
+    - **Attempt 1:** Inrease hidden layers to 3 , increase number of neurons , increase the number of values per each bins.  Accuracy=73.04%
       
       ![image](https://user-images.githubusercontent.com/120151872/236703764-eae2ec47-5b94-49ad-b43d-46470312b877.png)
 
-    -**Attempt 2:** Drop columns INCOME_AMT, ASK_AMT ; activation tanh. Accuracy 72.69%
+    - **Attempt 2:** Drop columns INCOME_AMT, ASK_AMT ; activation tanh. Accuracy=72.69%
     
     ![image](https://user-images.githubusercontent.com/120151872/236704413-a51c4c8b-b267-4122-bc98-5da71f750f65.png)
     
-    -**Attempt 3:**
+    - **Attempt 3:** Increase number of layers to 4, increase neurons, activation relu and tanh. Accuracy= 73.01%
+    
+    ![image](https://user-images.githubusercontent.com/120151872/236704998-0b5f27c4-1dc7-4d10-b7ef-6e8516fef2f0.png)
 
 
 ## Summary.
