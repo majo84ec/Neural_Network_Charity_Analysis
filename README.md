@@ -38,11 +38,15 @@ The purpose of this project is create a binary classifier that is capable of pre
 
     - **Attempt 2:** Drop columns INCOME_AMT, ASK_AMT ; activation tanh. Accuracy=72.69%
     
-    ![image](https://user-images.githubusercontent.com/120151872/236704413-a51c4c8b-b267-4122-bc98-5da71f750f65.png)
+      ![image](https://user-images.githubusercontent.com/120151872/236704413-a51c4c8b-b267-4122-bc98-5da71f750f65.png)
     
     - **Attempt 3:** Increase number of layers to 4, increase neurons, activation relu and tanh. Accuracy= 73.01%
     
-    ![image](https://user-images.githubusercontent.com/120151872/236704998-0b5f27c4-1dc7-4d10-b7ef-6e8516fef2f0.png)
-
+     ![image](https://user-images.githubusercontent.com/120151872/236704998-0b5f27c4-1dc7-4d10-b7ef-6e8516fef2f0.png)
+    
+    -**Attemp 4:** Increase number of neurons, all activation tanh. Accuracy= 71.4%
+    
+     ![image](https://user-images.githubusercontent.com/120151872/236705473-5b9afec2-1bc1-4497-93d4-ad548801f94c.png)
 
 ## Summary.
+After perfomed diffent optimizations it was not possible to achieve 75% accuracy,  the attempt 1 gave us the highest accuracy 73.04%. Other model can be used like Random Forest . It can perform binary classification, handle large datasets, and reduce the code  in order to get accurate predictions.
