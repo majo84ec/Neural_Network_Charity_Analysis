@@ -8,12 +8,15 @@ The purpose of this project is create a binary classifier that is capable of pre
 
 ### Data Preprocessing.
 - What variable(s) are considered the target(s) for your model?
+  
   The column "IS_SUCCESSFUL".
   
 - What variable(s) are considered to be the features for your model?
+  
   All columns except "IS_SUCCESSFUL", "EIN" and "NAME".
   
 - What variable(s) are neither targets nor features, and should be removed from the input data?
+  
   "EIN" and "NAME" columns.
   
 ### Compiling, Training, and Evaluating the Model
