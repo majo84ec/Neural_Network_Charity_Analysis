@@ -31,6 +31,8 @@ The purpose of this project is create a binary classifier that is capable of pre
   No.
 
 - What steps did you take to try and increase model performance?
-  
+
+    - Attempt 1: Inrease hidden layers to 3 , increase number of neurons , values to replace if counts are less than 1000. Accuracy 73.04%
+      ![image](https://user-images.githubusercontent.com/120151872/236703764-eae2ec47-5b94-49ad-b43d-46470312b877.png)
 
 ## Summary.
